@@ -1,0 +1,6 @@
+{
+    "version":  "1.101.0",
+    "build":  144,
+    "url":  "https://raw.githubusercontent.com/MAXimator70/maxup-download/main/MaxUp.apk",
+    "notes":  "- Apple Watch – Werte direkt ändern: auf „Satz \u0026 Pause“ die große kg- bzw. Wdh.-Zahl antippen und mit der Krone ändern; nach 3 s ohne Drehen fertig\n- Apple Watch – Band: bei Band-Übungen steht oben das Band mit Farbpunkt (statt kg) und lässt sich mit der Krone wählen, auch „ohne Band“; keine überlappende Schrift mehr\n- Apple Watch – zuverlässiger: Werte gehen erst ans Handy, wenn die Krone ruht, und verspätete alte Werte werden ignoriert; das Handy bestätigt erst nach dem Ausführen\n- Apple Watch – Beenden: beendet sofort, auch wenn das Handy gerade nicht antwortet; ein veralteter Stand vom Handy hält die Uhr nicht mehr im Training fest"
+}

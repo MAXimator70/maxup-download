@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MaxUp – Datenschutzerklärung</title>
+<style>
+  :root{--bg:#f6f4f1;--card:#fff;--text:#2a211c;--muted:#6b5f57;--brown:#4a2a18;--green:#5a9d22}
+  @media (prefers-color-scheme:dark){:root{--bg:#1c1714;--card:#26201c;--text:#efe9e4;--muted:#b6aaa1;--brown:#2e1a0f;--green:#8fc94f}}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  header{background:var(--brown);color:#fff;padding:20px 16px}
+  header a{color:#fff}
+  main{max-width:760px;margin:0 auto;padding:16px}
+  section{background:var(--card);border-radius:14px;padding:4px 18px 10px;margin:14px 0}
+  h1{margin:0;font-size:24px}
+  h2{font-size:18px;margin:16px 0 4px}
+  a{color:var(--green)}
+  .muted{color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<header>
+  <h1>MaxUp – Datenschutzerklärung</h1>
+  <div class="muted" style="color:#e7d9cf">Die Bike-App von Wing-Art · Stand: 11. November 2026</div>
+</header>
+<main>
+<section>
+  <h2>Kurz gesagt</h2>
+  <p><strong>Dein Sport. Deine Daten. Deine Regeln.</strong> MaxUp speichert alles nur auf deinem Handy. Es gibt kein Benutzerkonto,
+  keinen MaxUp-Server, keine Werbung und keine Analyse- oder Tracking-Dienste. Wing-Art erhält keine Daten von dir.</p>
+</section>
+
+<section>
+  <h2>Welche Daten die App verarbeitet</h2>
+  <ul>
+    <li><strong>Standort (GPS):</strong> nur während du eine Fahrt aufzeichnest bzw. die Karte nutzt, um Strecke, Tempo und Höhe zu berechnen. Gespeichert wird lokal auf dem Gerät.</li>
+    <li><strong>Sensoren über Bluetooth</strong> (z. B. Pulsgurt, Trittfrequenz): Messwerte werden nur lokal gespeichert.</li>
+    <li><strong>Profil</strong> (z. B. Alter, Gewicht, Maximalpuls): nur für die Kalorien- und Pulszonen-Berechnung auf dem Gerät.</li>
+    <li><strong>Fahrten, Strecken, Notizen und Einstellungen:</strong> lokal in der App.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Backups – nur wohin du willst</h2>
+  <p>Backups sind freiwillig. Du wählst selbst ein Ziel und meldest dich dort mit <strong>deinem eigenen Konto</strong> an:
+  Telegram, eigener Server per WebDAV (z. B. Synology), Ordner auf dem Handy, Google Drive, OneDrive oder Dropbox.
+  Die Backup-Datei wird direkt von deinem Handy in deinen Speicher übertragen – nicht über Wing-Art.
+  Die Zugangsdaten bzw. Anmelde-Token bleiben auf deinem Gerät.</p>
+  <p>Ein Backup enthält deine Fahrten, Einstellungen und – damit eine Wiederherstellung vollständig ist – auch die Zugangsdaten deiner Backup-Ziele.
+  Gib Backup-Dateien deshalb nicht an andere weiter.</p>
+</section>
+
+<section>
+  <h2>Google Drive</h2>
+  <p>Wenn du Google Drive als Backup-Ziel verbindest, fragt MaxUp nur die Berechtigung
+  <code>drive.file</code> an. Damit kann die App <strong>ausschließlich Dateien sehen und bearbeiten, die sie selbst angelegt hat</strong>
+  (den Ordner „MaxBike-Backups“ mit deinen Backups). Auf deine übrigen Dateien hat MaxUp keinen Zugriff.
+  Zusätzlich wird deine E-Mail-Adresse angezeigt, damit du siehst, mit welchem Konto du verbunden bist.</p>
+  <p>Die Daten aus Google Drive werden nur verwendet, um Backups abzulegen, aufzulisten, alte Backups zu löschen und ein Backup
+  wiederherzustellen. Sie werden nicht an Dritte weitergegeben, nicht für Werbung genutzt und von keinem Menschen bei Wing-Art eingesehen.</p>
+  <p>Die Nutzung und Weitergabe von Informationen, die MaxUp über Google-APIs erhält, entspricht der
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+  einschließlich der Anforderungen zur eingeschränkten Nutzung („Limited Use“).</p>
+  <p>Die Verbindung trennst du in MaxUp unter Einstellungen → Import &amp; Export oder jederzeit in deinem Google-Konto unter
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+</section>
+
+<section>
+  <h2>Apple Health (nur iPhone)</h2>
+  <p>Nur wenn du es in den Einstellungen unter „Apple Health“ einschaltest und iOS die Erlaubnis gibst:</p>
+  <ul>
+    <li><strong>Fahrten in Health speichern:</strong> MaxUp legt nach einer Fahrt ein Training in Apple Health an (Dauer, Distanz, Kalorien, Puls, Strecke).</li>
+    <li><strong>Trainings übernehmen:</strong> MaxUp liest Trainings anderer Apps samt Puls und Strecke aus Apple Health und speichert sie lokal auf dem Gerät.</li>
+  </ul>
+  <p>Die Daten bleiben auf deinem iPhone und in deinem Apple-Health-Bereich. MaxUp schickt Health-Daten an keinen Server und nutzt sie nicht für Werbung. Den Zugriff kannst du jederzeit in der Health-App unter Teilen › Apps › MaxUp ändern.</p>
+
+  <h2>Andere Dienste, mit denen das Handy spricht</h2>
+  <ul>
+    <li><strong>Kartendienste</strong> (z. B. OpenStreetMap, OpenTopoMap, CyclOSM, Satellitenkarten): Beim Laden von Kartenkacheln erhält der jeweilige Anbieter technisch bedingt deine IP-Adresse und den Kartenausschnitt.</li>
+    <li><strong>Update-Prüfung (Android):</strong> Die App fragt bei GitHub nach, ob eine neue Version vorliegt. Dabei erhält GitHub deine IP-Adresse.</li>
+    <li><strong>Sprachausgabe:</strong> nutzt die Stimmen deines Handys (Android bzw. iOS).</li>
+  </ul>
+  <p>Es werden dabei keine Fahrt- oder Profildaten übertragen.</p>
+</section>
+
+<section>
+  <h2>Löschen</h2>
+  <p>Fahrten löschst du direkt in der App. Wenn du MaxUp deinstallierst, werden alle Daten in der App gelöscht.
+  Backups in deinem eigenen Speicher (Drive, Synology usw.) löschst du dort selbst.</p>
+</section>
+
+<section>
+  <h2>Kontakt</h2>
+  <p>MaxUp ist ein privates Projekt von Wing-Art. Fragen zum Datenschutz: als Issue im
+  <a href="https://github.com/MAXimator70/maxup-download">GitHub-Repository</a>.</p>
+  <p class="muted">Diese Erklärung kann angepasst werden, wenn sich die App ändert. Es gilt die jeweils hier veröffentlichte Fassung.</p>
+</section>
+<p class="muted"><a href="../">← Zur MaxUp-Startseite</a></p>
+</main>
+</body>
+</html>
